@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // 👉 Вставь свой токен сюда
 const token = '7656450635:AAHlXcdNxg1LnkHTGoi_2lTdL6xY0b_xmUQ';
-
+// prod 7656450635:AAHlXcdNxg1LnkHTGoi_2lTdL6xY0b_xmUQ
 // token dev 8201703837:AAE8rX4gm5Nj92G9xrDEmZ-htskYUy019Fo
 
 // 👉 ID сестры (админа) — можно узнать, написав в @userinfobot
