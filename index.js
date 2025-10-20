@@ -1,11 +1,14 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // 👉 Вставь свой токен сюда
-const token = '8201703837:AAE8rX4gm5Nj92G9xrDEmZ-htskYUy019Fo';
+const token = '7656450635:AAHlXcdNxg1LnkHTGoi_2lTdL6xY0b_xmUQ';
+
+// token dev 8201703837:AAE8rX4gm5Nj92G9xrDEmZ-htskYUy019Fo
 
 // 👉 ID сестры (админа) — можно узнать, написав в @userinfobot
-const ADMIN_ID = 861442683;
-
+const ADMIN_ID = 296877576;
+// prod  296877576
+// dev 861442683
 // Запускаем бота
 const bot = new TelegramBot(token, { polling: true });
 
@@ -89,7 +92,7 @@ bot.on('message', (msg) => {
     
     // Обработка команды /start
     if (text === '/start') {
-      bot.sendMessage(chatId, '👋 Salom! Men administrator bilan aloqa qilish uchun botman.\n\n📝 Xabaringizni yozing, men uni administratorga yetkazaman. U sizga javob bera oladi.');
+      bot.sendMessage(chatId, '👋 Ассалому алекум ва рохматуллохи ва барокатуху, Men administrator bilan aloqa qilish uchun botman.\n\n📝 Xabaringizni yozing, men uni administratorga yetkazaman. U sizga javob bera oladi.');
       return; // Не пересылаем /start админу
     }
     
