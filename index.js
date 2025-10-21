@@ -1,12 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // 👉 Вставь свой токен сюда
-const token = '7656450635:AAHlXcdNxg1LnkHTGoi_2lTdL6xY0b_xmUQ';
-// prod 7656450635:AAHlXcdNxg1LnkHTGoi_2lTdL6xY0b_xmUQ
+const token = '8299836005:AAGDCORBsNRlao8Ni94A76p4m73syAGJnhY';
+// prod 8299836005:AAGDCORBsNRlao8Ni94A76p4m73syAGJnhY
 // token dev 8201703837:AAE8rX4gm5Nj92G9xrDEmZ-htskYUy019Fo
 
 // 👉 ID сестры (админа) — можно узнать, написав в @userinfobot
-const ADMIN_ID = 296877576;
+const ADMIN_ID = 8449163861;
 // prod  296877576
 // dev 861442683
 // Запускаем бота
